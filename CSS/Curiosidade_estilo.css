@@ -1,0 +1,21 @@
+.ajustarImagem_Curiosidade img{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 768px){
+
+    .ajustarImagem_Curiosidade img{
+
+        max-width:300px;
+        max-height:150px;
+        width: auto;
+        height: auto;
+
+    }
+
+}

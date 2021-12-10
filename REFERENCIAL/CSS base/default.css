@@ -1,0 +1,182 @@
+
+/* header */
+
+header.default_header {
+
+    background-color: #000000dc;
+
+  }
+
+h1{
+
+    text-align: center;
+
+}
+
+
+header.default_header p{
+
+    text-align: center;
+    color: red;
+
+}
+
+
+#menu_maior_default{
+
+    background-color: red;
+
+}
+
+#menu_maior_default a{
+
+    display: inline-flex;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10%;
+
+}
+
+
+/* menu */
+
+#sub_menu_default label , input{
+
+    color: white;
+    padding: 20px;
+
+
+}
+
+#botao_menu_default{
+
+    display: none;
+    background-color: rgb(117, 7, 7);
+    border: none;
+    cursor: pointer;
+    margin-top: -20px;
+
+}
+
+#botao_menu_default:active{
+
+    background-color: red;
+
+}
+
+#sub_menu_default{
+
+    display: none;
+    background-color: rgb(109, 8, 8);;
+    min-width: 200px;
+
+}
+
+#sub_menu_default a{
+
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+
+}
+
+/* main */
+
+main.texto_default h2 {
+
+    text-align: center;
+    font-size: 35px;
+    color: red;
+
+}
+
+main.texto_default h3 {
+
+    margin-left: 5%;
+    font-size: 25px;
+    color: black;
+
+}
+
+main.texto_default p {
+
+    margin-left: 5%;
+    color: gray;
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 5px;
+
+}
+
+/* rodapé */
+
+footer {
+
+    background-color: black;
+
+}
+
+.logo_default {
+
+    background-color: rgb(61, 3, 3);
+
+}
+
+.logo_default a{
+
+    padding-top: 8px;
+    display: block;
+    margin-right: 40%;
+    margin-left: 40%;
+
+}
+
+.copy_default {
+
+    background-color: #000000dc;
+
+}
+
+.copy_default p{
+
+    color: white;
+    font-size: 15px;
+
+}
+
+@media screen and (max-width: 768px){
+
+    .default_header img{
+
+        width: 90%;
+
+    }
+    
+    #menu_maior_default{
+
+        display: none;
+
+    }
+
+    #botao_menu_default {
+
+        display: block;
+ 
+    }
+
+    #sub_menu_default {
+
+        display: block;
+
+    }
+
+    .logo_default img{
+
+       position: relative;
+       left: -110px;
+    
+    }
+
+}
